@@ -19,7 +19,17 @@
             <Label Text="Preço da Gasolina:" />
             <Entry x:Name="txt_gasolina" Placeholder="R$ " />
 
-            <Button Text="Qual compensa mais?" Clicked="Button_Clicked" />
+            <Label Text="Marca do Veículo:"/>
+            <Entry x:Name="txt_marca_veiculo"
+                   Placeholder="Marca X "/>
+
+            <Label Text="Modelo do Veículo:"/>
+            <Entry x:Name="txt_modelo_veiculo"
+                   Placeholder="Modelo Y "/>
+
+            <Button Margin="0,0,0,50"
+                    Text="Qual compensa mais?"
+                    Clicked="Button_Clicked"/>
 
         </VerticalStackLayout>
     </ScrollView>
